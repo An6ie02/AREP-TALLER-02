@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif; 
+    text-align: center; 
+    padding: 20px;
+    background: linear-gradient(to bottom, #f9f9f9, #dddddd);
+    height: 100vh;
+}
+
+h1 {
+    color:#333;
+}
+
+label {
+    display: block; 
+    margin-bottom: 10px;
+}
+
+.titulo {
+    font-size: 24px;
+    color: #333; /* Cambia esto al color que desees */
+    margin-bottom: 20px;
+}
+
+.contenedor {
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row;
+    align-items: center; 
+}
+
+.contenedor .card{
+    width: 330px;
+    height: 290px;
+    border-radius: 8px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+}
+
+.contenedor .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+
+.contenedor .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.contenedor .card p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    font-weight: bold;
+}
+
+.columna {
+    flex: 1;
+    padding: 20px;
+}
+
+#button-subb {
+    background-color: #007BFF; 
+    color:#fff; 
+    padding: 10px 20px; 
+    border: none; 
+    cursor: pointer; 
+    margin-top: 10px;
+}
+
+.not-found-img {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+}
+
+#nameMovie {
+    padding: 8px; 
+    width: 200px;
+}
+
+#getrespmsg {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+div {
+    margin-top: 20px;
+}
+
+h2 {
+    color:#333;
+}
+p {
+    color:#333;
+}

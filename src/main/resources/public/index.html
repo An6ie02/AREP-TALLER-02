@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stile.css">
+    <title>Movies</title>
+</head>
+
+<body>
+    <h1 class="titulo">Top 5 Most Viewed Movies</h1>
+    <div class="contenedor">
+
+        <div class="card">
+            <img src="./img/top1.jpg">
+            <p>The grastest night in pop</p>
+        </div>
+        <div class="card">
+            <img src="./img/top2.jpg">
+            <p>Orion and the dark</p>
+        </div>
+        <div class="card">
+            <img src="./img/top3.jpg">
+            <p>Lift: Un robo de primera clase</p>
+        </div>
+        <div class="card">
+            <img src="./img/top4.jpg">
+            <p>Deep Fear</p>
+        </div>
+        <div class="card">
+            <img src="./img/top5.jpg">
+            <p>The Postcard Killings</p>
+        </div>
+    </div>
+    <div class="contenedor">
+        <div class="columna">
+            <h1>Search Movie</h1>
+            <form action="#" method="post">
+                <label for="textInfo">Enter the name of the movie:</label>
+                <input type="text" id="nameMovie" name="campoTexto">
+                <br>
+                <input id="button-subb" type="button" value="Search" onclick="loadGetMsg()">
+            </form>
+        </div>
+        <div class="columna">
+
+            <div id="getrespmsg"> </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
