@@ -74,6 +74,6 @@ El anterior comando crea un archivo con la documentación de la aplicación, est
 
 * **Angie Natalia Mojica** [Angie Natalia Mojica](https://www.linkedin.com/in/angienataliamojica/)
 
-## Acknowledgments
+## Agradecimientos
 
 * Al profesor [Luis Daniel Benavides Navarro](https://www.linkedin.com/in/danielbenavides/) por la guía y la enseñanza en el curso de Arquitecturas Empresariales.
